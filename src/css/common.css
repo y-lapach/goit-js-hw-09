@@ -16,3 +16,61 @@ img {
   display: block;
   max-width: 100%;
 }
+.body-timer {
+  min-height:100vh;
+  padding:40px;
+  background-image: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
+}
+.form-timer {
+  text-align: center;
+}
+.form-timer input {
+  width: 250px;
+  margin-right: 10px;
+  padding: 12px 10px;
+  text-align: center;
+  border: 2px solid whitesmoke;
+  border-radius: 20px;  
+}
+.form-timer input:focus-visible {
+  outline: whitesmoke;
+}
+.form-timer input:disabled {
+  background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+  color: #ffffff;
+}
+.form-timer button.btn-refresh {
+  margin-right: 0px;
+}
+.form-timer button {
+  min-width:100px;
+  margin-right: 10px;
+  padding: 12px 0;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: coral;
+  color: whitesmoke;
+}
+.timer {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin: 40px 0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.timer .field {
+      border-bottom: #ff8308 2px solid;
+}
+span.value.end {
+  font-weight:600;
+  color:#ff7f50;
+  font-size: 20px;
+}
+span.label {
+  font-style: italic;
+}
+.nx-message {
+  position: center top;
+}
